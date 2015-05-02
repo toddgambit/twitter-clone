@@ -127,8 +127,15 @@ body {
 		margin-bottom: 1em;
 		box-sizing: border-box;
 	}
+	.tweet-compose.go{
+		height:6em;
+	}
 		#tweet-controls {
 			text-align: right;
+			display: none;
+		}
+		#tweet-controls.go{
+			display: block;
 		}
 			#tweet-controls div {
 				display: inline-block;
@@ -137,6 +144,9 @@ body {
 				font-size: 14px;
 				color: #999;
 				text-shadow: 0 1px 1px rgba(255,255,255,.75);
+			}
+			#char-count.danger-zone{
+				color:red;
 			}
 
 /* TWEET */
